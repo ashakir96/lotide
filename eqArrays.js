@@ -13,5 +13,3 @@ const eqArrays = function(array1, array2) {
     } 
   } return true;
 }
-
-assertEqual(eqArrays([1, 2, 35], [1, 2, 35]), true);
