@@ -15,6 +15,12 @@ const assertArraysEqual = function(newArr1, newArr2) {
 }
 
 const without = function (arr1, arr2) {
-  let a = arr1.filter(filtered => !arr2.includes(filtered));
-  return a;
+  let newArray = arr1;
+  for (let i = 0; i < arr1.length; i++) {
+    for (let j = 0; j < arr2.length; j++) {
+      if (arr1[i] === arr2[j]) {
+        newArray.splice(i, 1);
+      }
+    }
+  } return newArray;
 };
