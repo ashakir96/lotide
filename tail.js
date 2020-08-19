@@ -9,7 +9,3 @@ const assertEqual = function(actual, expected) {
 const tail = function(array) {
   return array.slice(1);
 };
-
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words);
-assertEqual(words.length, 3);
