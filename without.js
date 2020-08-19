@@ -13,3 +13,8 @@ const assertArraysEqual = function(newArr1, newArr2) {
     console.log("❌❌❌ Assertion Failed");
   }
 }
+
+const without = function (arr1, arr2) {
+  let a = arr1.filter(filtered => !arr2.includes(filtered));
+  return a;
+};
