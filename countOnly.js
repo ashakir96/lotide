@@ -18,3 +18,5 @@ const countOnly = function(allItems, itemsToCount) {
     }
   } return returnedObj;
 };
+
+module.exports = countOnly;

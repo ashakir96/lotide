@@ -11,3 +11,5 @@ const letterPositions = function(sentence) {
     } index++;
   } return results;
 };
+
+module.exports = letterPositions;

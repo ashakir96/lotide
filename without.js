@@ -27,3 +27,5 @@ const without = function (arr1, arr2) {
     }
   } return newArray;
 };
+
+module.exports = without;

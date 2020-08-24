@@ -26,3 +26,5 @@ const assertArraysEqual = function(newArr1, newArr2) {
     console.log("❌❌❌ Assertion Failed: " + newArr1 + " !== " + newArr2);
   }
 };
+
+module.exports = map;

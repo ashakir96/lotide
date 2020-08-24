@@ -29,3 +29,5 @@ const flatten = function(array) {
     }
   } return output;
 };
+
+module.exports = flatten;
